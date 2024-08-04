@@ -1,0 +1,53 @@
+  246  yum install docker.io
+  247  mkdir docker
+  248  cd docker
+  249  yum install docker
+  250  systmectl docker start
+  251  systemctll docker start
+  252  systemctl docker start
+  253  systemctl start docker
+  254  ls
+  255  docker search images
+  256  docker pull ubuntu
+  257  docker images
+  258  docker run -it --name harpal ubuntu /bin/bash
+  259  ls
+  260  docker ps
+  261  docker ps -a
+  262  docker start harpal
+  263  docker attach harpal
+  264  docker ps -a
+  265  docker build -t harpal
+  266  docker images
+  267  docker commit harpal
+  268  docker images
+  269  docker commit --name harpal harpal
+  270  docker commit harpal harpal
+  271  docker images
+  272  docker run -it --name dev harpal /bin/bash
+  273  docker ps -a
+  274  sudo docker ps
+  275  sudo docker ps -a
+  276  sudo docker exec -it harpal
+  277  sudo docker attach -it harpal
+  278  sudo docker start -it harpal
+  279   docker start -it harpal
+  280  docker start harpal
+  281  sudo docker attach harpal
+  282  docker run -it --name PROD --v /tmp harpal /bin/bash
+  283  docker run -it --name PROD -v /tmp harpal /bin/bash
+  284  docker ps -a
+  285  docker attach dev
+  286  docker start dev
+  287  docker attach de
+  288  docker attach dev
+  289  docker commit --name volumedisktest PROD
+  290  docker commit volumedisktest PROD
+  291  docker commit volumedisktest prod
+  292  docker commit PROD voulumedisk
+  293  docker run -it --name hari Volumedisk /bin/bash
+  294  docker run -it --name hari volumedisk /bin/bash
+  295  docker images
+  296  docker run -it --name hari voulumedisk /bin/bash
+  297  history
+
