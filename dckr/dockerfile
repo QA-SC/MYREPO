@@ -1,0 +1,5 @@
+FROM ubuntu
+WORKDIR /tmp
+RUN echo "harpal" > /tmp/rajfile
+ENV myname harpal
+
