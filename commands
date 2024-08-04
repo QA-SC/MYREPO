@@ -1,0 +1,286 @@
+  1  sudo du -
+    2  sudo su -
+    3  sudo su
+    4  sudo su -
+    5  git status
+    6  cd
+    7  sudo su -
+    8  ls
+    9  ls -lrt
+   10  cd /tmp/
+   11  ls
+   12  touch harpalsin
+   13  ls
+   14  ls -lrt
+   15  chown harpal harpalsin
+   16  sudo chown harpal harpalsin
+   17  sudo chmod 700 harpalsin
+   18  ls
+   19  ls -lrt
+   20  sudo chmod 500 harpalsin
+   21  sudo chmod 000 harpalsin
+   22  ls -lrt
+   23  sudo chmod 001 harpalsin
+   24  ls -lrt
+   25  sudo chmod 003 harpalsin
+   26  ls -lrt
+   27  sudo chmod 333 harpalsin
+   28  ls -lrt
+   29  sudo chmod 533 harpalsin
+   30  ls -lrt
+   31  sudo chmod 753 harpalsin
+   32  ls -lrt
+   33  sudo chmod 470 harpalsin
+   34  ls -lrt
+   35  user goup other
+   36  history
+   37  deleteuser harpal
+   38  userdel harpal
+   39  sudo userdel -m harpal
+   40  sudo userdel harpal
+   41  sudo userdel -p -f harpal
+   42  sudo userdel -f -p harpal
+   43  sudo userdel -f harpal
+   44  sudo userdel -p harpal
+   45  sudo userdel -f harpal
+   46  cat /etc/passwd
+   47  history
+[ec2-user@ip-172-31-3-119 tmp]$ sudo su -
+Last login: Sun Aug  4 05:07:22 UTC 2024 on pts/3
+-bash: /root: Is a directory
+-bash: /root: Is a directory
+[root@ip-172-31-3-119 ~]# history
+    1  yum update
+    2  yum instll git -y
+    3  yum install git -y
+    4  yum install java-17* -y
+    5  find /usr/lib/java/java17* |
+    6  find /usr/lib/java/java17* |head -n 3
+    7  find /usr/lib/java/java-17* |head -n 3
+    8  find /usr/lib/java/java-17* | head -n 3
+    9  find /usr/lib/java/17* | head -n 3
+   10  find /usr/lib/jvm/java-17* | head -n 3
+   11  vi .bash_profile
+   12  logout
+   13  java -- version
+   14  java --version
+   15  echo $JAVA_HOME
+   16  cd /opt
+   17  wget https://dlcdn.apache.org/maven/maven-3/3.9.8/binaries/apache-maven-3.9.8-bin.tar.gz
+   18  ls
+   19  tat -xvzf apache-maven-3.9.8-bin.tar.gz
+   20  tar -xvzf apache-maven-3.9.8-bin.tar.gz
+   21  ls
+   22  rm -rf apache-maven-3.9.8-bin.tar.gz
+   23  mv apache-maven-3.9.8/ maven
+   24  cd maven/
+   25  ls
+   26  vi ~/.bash_profile
+   27  exit
+   28  mvn --version
+   29  echo $M2_HOME
+   30  wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repowget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   31  ls
+   32  rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+   33  yum install jenkins -y
+   34  systemctl jenkins start
+   35  service jenkins start
+   36  service jenkins status
+   37  service jenkins start
+   38  chckconfig jenkins on
+   39  chkconfig jenkins on
+   40  service jenkins status
+   41  yum install httpd
+   42  cd /var/www/html
+   43  touch index.html
+   44  vi index.html
+   45  service httpd start
+   46  cat /var/lib/jenkins/secrets/initialAdminPassword
+   47  ls
+   48  cd jenkis
+   49  cd /var/lib/jenkins/
+   50  ls
+   51  cd workspace/
+   52  ls
+   53  ls
+   54  service jenkins start
+   55  cd /var/lib/jenkins/
+   56  ls
+   57  cd workspace/
+   58  ls
+   59  echo $JAVA_HOME
+   60  echo $M2_HOME
+   61  mkdir gittraining
+   62  cd gitq
+   63  cd gittraining/
+   64  git init
+   65  git add remote https://github.com/QA-SC/MYREPO.git
+   66  git remote add origin https://github.com/QA-SC/MYREPO.git
+   67  git remote - v
+   68  git remote -v
+   69  git pull
+   70  git pull https://github.com/QA-SC/MYREPO.git
+   71  git pull https://github.com/QA-SC/MYREPO.git QA
+   72  git pull QA-SC master
+   73  touch file1
+   74  git status
+   75  git add .
+   76  git commit -m "first commit"
+   77  git push origin https://github.com/QA-SC/MYREPO.git
+   78  git push
+   79    git push --set-upstream origin DEV
+   80  git push --set-upstream origin DEV
+   81  git push -u origin main
+   82  git add remote QA-SC   git push --set-upstream origin master
+   83  git add remote QA-SC https://github.com/QA-SC/MYREPO.git
+   84  git remote add QA-SC https://github.com/QA-SC/MYREPO.git
+   85  git push -u QA-SC main
+   86  git push -u QA-SC master
+   87  ls
+   88  cd gittraining/
+   89  git push QA-SC https://github.com/QA-SC/MYREPO.git
+   90  git remote add QA-SC https://github.com/QA-SC/MYREPO.git
+   91  git push -u origin https://github.com/QA-SC/MYREPO.git
+   92  git push -u origin main
+   93  git branch -m main
+   94  git push -u origin main
+   95  git config --user "harpal"
+   96  git global config --user "harpal"
+   97  git config --globaluser "harpal"
+   98  git --help
+   99  git config --global
+  100  git config --global "user.name" "harpal"
+  101  git pull
+  102  ls
+  103  touch readme.txt
+  104  git add '
+  105  git status
+  106  git add .
+  107  git commit -m "second commit"
+  108  git push
+  109  git branch checkout -b DEV
+  110  git checkout -b DEV
+  111  git swith DEV
+  112  git switch DEV
+  113  branch
+  114  git branch
+  115  ls
+  116  git abc
+  117  touch abs
+  118  git add .
+  119  git commit -m "third on DEV "
+  120  git push origin DEV
+  121  git pull
+  122  ls
+  123  cat readme.txt
+  124  git pull ls
+  125  git switch main
+  126  git pull
+  127  git branch
+  128  git switch DEV
+  129  git pull
+  130  git branch --set-upstream-to=QA-SC/main DEV
+  131  git branch --set-upstream main DEV
+  132  git branch --set-upstream-to main DEV
+  133  git pull
+  134  cat readme.txt
+  135  touch abcdefghijk
+  136  git add.
+  137  git add .
+  138  git commit -m "abc"
+  139  git push
+  140  git push. HEAD:DEV
+  141  git push HEAD:DEV
+  142  git push
+  143  git branh
+  144  git branch
+  145  git push . HEAD
+  146  git push . HEAD:main
+  147  git push . HEAD:DEV
+  148  git pull
+  149  git branch --set-upstream-to DEV
+  150  git branch --set-upstream-to main
+  151  git branch --set-upstream-to QA
+  152  git branch --set-upstream-to main
+  153  ls
+  154  git push
+  155  git merge DEV main
+  156  git swith main
+  157  git switch main
+  158  git pull
+  159  ls
+  160  git push
+  161  git checkout -b QA
+  162  git switch QA
+  163  ls
+  164  git pull
+  165  touch fffff
+  166  git add .
+  167  git commit -m "fff"
+  168  git push
+  169  git push --set-upstream origin QA
+  170  clear
+  171  ls
+  172  ls -lrt
+  173  pwd
+  174  cd ..
+  175  ls
+  176  whoami
+  177  which jenkins
+  178  ifconfig
+  179  iostat -a
+  180  iostat
+  181  vmstat
+  182  df -h
+  183  du -h
+  184  du
+  185  adduser harpal
+  186  passwd harpal
+  187  cat /etc/passwd
+  188  cat /etc/passwd | tail -h 3
+  189  cat /etc/passwd | tail -b 3
+  190  cat /etc/passwd | tail 3
+  191  cat /etc/passwd | tail -b  3
+  192  cat /etc/passwd | tail -3
+  193  addgrou sew
+  194  addgroup SEW
+  195  groupadd SEW
+  196  cayt /etc/passwd
+  197  cat /etc/passwd
+  198  cat /etc/
+  199  cat /etc/group
+  200  ls
+  201  cd gittraining/
+  202  ls
+  203  git status
+  204  ls
+  205  ls -lrt
+  206  ls -a
+  207  pwd
+  208  which git
+  209  which java
+  210  which passwd
+  211  which group
+  212  moduser -m SEW harpal
+  213  usermod -m SEW harpal
+  214  usermod -aG SEW harpal
+  215  cat /etc/passwd
+  216  cat /etc/group
+  217  ls
+  218  ls -lrt
+  219  chown harpal file1
+  220  ls -lrt
+  221  chown harpal:SEW file1
+  222  ls -lrt
+  223  chmod 007 file1
+  224  ls -lrt
+  225  chmod 750 file1
+  226  ls -lrt
+  227  su harpal
+  228  ls
+  229  pwd
+  230  cd /root/gittraining/
+  231  ls
+  232  logout
+  233  history
+
