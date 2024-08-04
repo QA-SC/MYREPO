@@ -1,0 +1,194 @@
+  248  cd docker
+  249  yum install docker
+  250  systmectl docker start
+  251  systemctll docker start
+  252  systemctl docker start
+  253  systemctl start docker
+  254  ls
+  255  docker search images
+  256  docker pull ubuntu
+  257  docker images
+  258  docker run -it --name harpal ubuntu /bin/bash
+  259  ls
+  260  docker ps
+  261  docker ps -a
+  262  docker start harpal
+  263  docker attach harpal
+  264  docker ps -a
+  265  docker build -t harpal
+  266  docker images
+  267  docker commit harpal
+  268  docker images
+  269  docker commit --name harpal harpal
+  270  docker commit harpal harpal
+  271  docker images
+  272  docker run -it --name dev harpal /bin/bash
+  273  docker ps -a
+  274  sudo docker ps
+  275  sudo docker ps -a
+  276  sudo docker exec -it harpal
+  277  sudo docker attach -it harpal
+  278  sudo docker start -it harpal
+  279   docker start -it harpal
+  280  docker start harpal
+  281  sudo docker attach harpal
+  282  docker run -it --name PROD --v /tmp harpal /bin/bash
+  283  docker run -it --name PROD -v /tmp harpal /bin/bash
+  284  docker ps -a
+  285  docker attach dev
+  286  docker start dev
+  287  docker attach de
+  288  docker attach dev
+  289  docker commit --name volumedisktest PROD
+  290  docker commit volumedisktest PROD
+  291  docker commit volumedisktest prod
+  292  docker commit PROD voulumedisk
+  293  docker run -it --name hari Volumedisk /bin/bash
+  294  docker run -it --name hari volumedisk /bin/bash
+  295  docker images
+  296  docker run -it --name hari voulumedisk /bin/bash
+  297  history
+  298  touch file1
+  299  ls
+  300  vi file1
+  301  git psuh
+  302  git push
+  303  git status
+  304  git add .
+  305  git commit -m "docker"
+  306  git push
+  307  ls
+  308  cd gittraining/
+  309  ls
+  310  mkdir dckr
+  311  cd dckr/
+  312  ls
+  313  docker ps
+  314  docker ps -a
+  315  clear
+  316  docker images ubuntu
+  317  docker run -it --name santos ubuntu /bin/bash
+  318  docker commit -it santos
+  319  docker commit santos saheb
+  320  docker images
+  321  docker run -it --name sen -v /test saheb /bin/bash
+  322  docker run -it --name lakshay saheb /bin/bash
+  323  docker start sen
+  324  docker attach sen
+  325  docker commit -v /test sen sen
+  326  docker commit  sen sen
+  327  docker images
+  328  docker run -it --name lakshaykurana sen /bin/bash
+  329  vi dockerfile
+  330  docker build dockerfile .
+  331  docker images
+  332  docker build dockerfile
+  333  docker build -t dockerfile
+  334  ls
+  335  docker build -t dockerfile
+  336  docker build -t fileimage .
+  337  vi dockerfile
+  338  docker build -t fileimage .
+  339  docker images
+  340  history
+  341  clear
+  342  docker ps -a
+  343  docker rm -rf
+  344  docker rm -rf .
+  345  docker rm
+  346  docker rm *
+  347  docker rm - rf .
+  348  docker rm -rf .
+  349  docker rm
+  350  docker system prune –a
+  351  docker system prune -a
+  352  docker images
+  353  docker ps -a
+  354  git status
+  355  git add .
+  356  git commit -m "docker"
+  357  git push
+  358  ls
+  359  cd gittraining/
+  360  ls
+  361  cd dockernew
+  362  mkdir dockernew
+  363  cd dockernew
+  364  docker images
+  365  docker run -it --name saicontainer ubuntu /bin/bash
+  366  touch test
+  367  ls
+  368  cd test
+  369  mkdir testi
+  370  mv testi test
+  371  mv testi vol
+  372  cd vol/
+  373  pwd
+  374  cd ..
+  375  docker run -it --name -v /root/gittraining/dockernew/vol ubuntu /bin/bash
+  376  docker run -it --name raj -v /root/gittraining/dockernew/vol ubuntu /bin/bash
+  377  cd vol/
+  378  ls
+  379  touch file 2
+  380  ls
+  381  exit
+  382  ls
+  383  cd gittraining/dockernew/
+  384  ls
+  385  cd
+  386  ls
+  387  cd gittraining/
+  388  cd dockernew/
+  389  ls
+  390  docker run -it --name harpal -v /root:/hari ubuntu /bin/bash
+  391  ls
+  392  cd
+  393  ls
+  394  ls /
+  395  cd roo
+  396  cd root
+  397  mkdir hari
+  398  ls
+  399  cd /
+  400  ls
+  401  cd hari
+  402  docker run -it --name harpal1 -v /root:/hari ubuntu /bin/bash
+  403  ls
+  404  cd
+  405  cd hari/
+  406  ls
+  407   exit
+  408  pwd
+  409  ls
+  410  cd hari/
+  411  ls
+  412  docker run -it --name harpal2 -v /root:/harpalsingh ubuntu /bin/bash
+  413  ls
+  414  cd ..
+  415  ls
+  416  cd /
+  417  ls
+  418  cd root/
+  419  ls
+  420  cd hari/
+  421  ls
+  422  cd ..
+  423  cd gittraining/
+  424  ls
+  425  cd ..
+  426  docker start harpal2
+  427  docker attach harpal2
+  428  ls
+  429  cd gittraining/
+  430  cd dockernew/
+  431  ls
+  432  docker ps
+  433  docker ps -a
+  434  docker run -dt --name webserver1 -p 80:80 ubuntu
+  435  docker ps
+  436  docker attach webserverq
+  437  docker exec webserver1
+  438  docker exec -it webserver1 /bin/bash
+  439  docker ps
+  440  history
+
