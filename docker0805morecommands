@@ -1,0 +1,92 @@
+  501  docker exec -t webserver /bin/bash
+  502  service docker restart
+  503  docker ps
+  504  docker ps -a
+  505  docker start webserver
+  506  docker attach webserver
+  507  docker run -it --name web ubuntu /bin/bash
+  508  docker ps -a
+  509  docker ps
+  510  docker exec -it webserver
+  511  docker exec -it webserver /bin/bash
+  512  docker run -it --name webserver1 -v --volume-from webserver harpal /bin/bash
+  513  docker run -it --name webserver1 --volumes-from webserver  harpal /bin/bash
+  514  docker exec -it webserver
+  515  cd dat
+  516  cd data
+  517  docker exec -it webserver /bin/bash
+  518  docker commit -m webserver
+  519  docker commit webserver webserver
+  520  docker images
+  521  history
+  522  clear
+  523  docker ps -
+  524  docker ps
+  525  docker -D hello-world
+  526  docker -D run hello-world
+  527  docker images
+  528  docker rmi hello-world
+  529  docker rmi d2c94e258dcb
+  530  dpcker rmi 37b8cf8ff6cc
+  531  docker rmi 37b8cf8ff6cc
+  532  docker rm 37b8cf8ff6cc
+  533  docker rmi hello-world
+  534  docker images
+  535  docker image ls
+  536  docker image ls dangling=true
+  537  docker image ls alpine
+  538  docker export webserver
+  539  docker export webserver > webserver:7.tar
+  540  ls
+  541  tar -xvzf webserver:7.tar
+  542  unzip -xvzf webserver:7.tar
+  543* r
+  544  tar -xvzf webserver:7.tar.gz
+  545  docker export webserver > webserver:7.tar.gz
+  546  tar -xvzf webserver\:7.tar.gz
+  547  ls
+  548  clear
+  549  docker logs
+  550  docker logs -f webserver
+  551  docker logs -f since 2024-06-24T16:00 webserver
+  552  docker logs --since 2024-06-24T16:00 webserver
+  553  docker ps -a
+  554  docker ps
+  555  docker attach webserver\:7.tar
+  556  docker attach webserver
+  557  docker exec -it webserver /bin/bash
+  558  docker ps
+  559  docker logs -f webserver
+  560  docker pd top webserver
+  561  docker ps top webserver
+  562  docker top webserver
+  563  docker stats webserver
+  564  docker update webserver -p 80:80
+  565  docker update --name webserver -p 80:80 webserver
+  566  dockercontainer update --name webserver1 -p 80:80 webserver
+  567  docker container update --name webserver1 -p 80:80 webserver
+  568  docker container update -p 80:80 webserver
+  569  docker container update --p 80:80 webserver
+  570  docker container update -d --p 8080:80 webserver
+  571  docker run -p 8080:8080 -td webserver
+  572  docker run -p 80:80 -td webserver
+  573  docker ps
+  574  docker update --help
+  575  ls
+  576  docker volume create my-vol
+  577  docker volume ls
+  578  docker volume inspect my-vol
+  579  docker volume rm >
+  580  docker volume rm .
+  581  docker volume prune
+  582  docker volume ls
+  583  docker volume ls\
+  584  docker volume ls
+  585  clear
+  586  docker run -p
+  587  docker p
+  588  docker ps
+  589  docker run -P
+  590  docker port webserver
+  591  history
+
