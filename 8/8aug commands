@@ -1,0 +1,111 @@
+ 1  yum install git
+    2  yum install java-17*
+    3  find /usr/lib/jvm/java-17* | head -n 3
+    4  vi .bash_profile
+    5  JAVA_HOME=/usr/lib/jvm/java-17-amazon-corretto.x86_64
+    6  PATH=$PATH:HOME/bin:$JAVA_HOME
+    7  export PATH
+    8  logout
+    9  echo $JAVA_HOME
+   10  cd /opt/
+   11  wget https://dlcdn.apache.org/maven/maven-3/3.9.8/binaries/apache-maven-3.9.8-bin.tar.gz
+   12  ls
+   13  tar -xvzf apache-maven-3.9.8-bin.tar.gz
+   14  ls4
+   15  clear
+   16  ls
+   17  rm -rf apache-maven-3.9.8-bin.tar.gz
+   18  ls
+   19  cd apache-maven-3.9.8/
+   20  ls
+   21  cd ..
+   22  rm apache-maven-3.9.8/ maven
+   23  mv apache-maven-3.9.8/ maven
+   24  ls
+   25  cd maven/
+   26  pwd
+   27  vi ~/.bash_profile
+   28  logout
+   29  mvn --version
+   30  echo $M2_HOME
+   31  wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repowget
+   32  wget /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repowget
+   33  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   34  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+   35  service jenkins start
+   36  service start jenkins
+   37  systmectl start jenkins
+   38  service jenkins start
+   39  yum install jenkins
+   40  srvice jenkins start
+   41  service jenkins start
+   42  cd /var/lib/jenkins/secrets/initialAdminPassword
+   43  cd /var/lib/jenkins/secrets
+   44  ls
+   45  cat initialAdminPassword
+   46  mvn clean package
+   47  cd ..
+   48  cd
+   49  mkdir git
+   50  cd gi
+   51  cd git/
+   52  git init
+   53  git add remote QA-SC https://github.com/QA-SC/boxfuse-sample-java-war-hello.git
+   54  git remote add QA-SC https://github.com/QA-SC/boxfuse-sample-java-war-hello.git
+   55  ls
+   56  git branch
+   57  git clone https://github.com/QA-SC/boxfuse-sample-java-war-hello.git
+   58  ls
+   59  mvn clean package
+   60  cd ..
+   61  cd /var/
+   62  ls
+   63  cd lib/jenkins/
+   64  cd workspace/
+   65  ls
+   66  cd firstjob/
+   67  ls
+   68  ls -a
+   69  cd
+   70  ls
+   71  cd /opt
+   72  cd maven/
+   73  mvn clean package
+   74  cd
+   75  cd git/
+   76  ls
+   77  cd boxfuse-sample-java-war-hello/
+   78  ls
+   79  mvn clean package
+   80  mvn -X clean package
+   81  cd
+   82  git clone  https://github.com/QA-SC/war-web-project.git
+   83  cd war-web-project/
+   84  mvn clean package
+   85  cd
+   86  cd /root/war-web-project/target
+   87  ls
+   88  echo $JAVA_HOME
+   89  echo $M2_HOME
+   90  cd /var/lib/jenkins/workspace/
+   91  ls
+   92  service jenkins start
+   93  cd git/
+   94  ls
+   95  cd
+   96  ls
+   97  cd war-web-project/
+   98  ls
+   99  vi readme.md
+  100  git status
+  101  git add .
+  102  git commit -m "test"
+  103  git push
+  104  vi readme.md
+  105  git add .
+  106  git commit -m "test1"
+  107  git push
+  108  cd
+  109  cd /var/lib/jenkins/workspace/
+  110  ls -lrt
+  111  date
