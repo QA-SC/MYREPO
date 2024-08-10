@@ -1,0 +1,85 @@
+ 1  ls
+    2  yum install git
+    3  yum install java-17*
+    4  find /usr/lib/jvm/
+    5  find /usr/lib/jvm/java-17*
+    6  find /usr/lib/jvm/java-17* | head -3
+    7  vi .bash_profile
+    8  echo $JAVA_HOME
+    9  vi .bash_profile
+   10  echo $JAVA_HOME
+   11  logout
+   12  echo $JAVA_HOME
+   13  pwd
+   14  logout
+   15  history
+   16  mvn --varsion
+   17  java --vaersion
+   18  java - version
+   19  java --version
+   20  which mvn
+   21  which maven
+   22  which git
+   23  cd /opt
+   24  wget https://dlcdn.apache.org/maven/maven-3/3.9.8/binaries/apache-maven-3.9.8-bin.tar.gz
+   25  ls
+   26  tar -xvzf apache-maven-3.9.8-bin.tar.gz
+   27  ls
+   28  rm -rf apache-maven-3.9.8-bin.tar.gz
+   29  mv apache-maven-3.9.8/ maven
+   30  cd maven/
+   31  vi ~/.bash_profile
+   32  logout
+   33  mvn --version
+   34  echo $M2_home
+   35  echo "$M2_home"
+   36  echo $M2_HOME
+   37  cd /opt
+   38  cd maven/
+   39  vi ~/.bash_profile
+   40  logout
+   41  mvn archetypr:genrate
+   42  mvn archetype:genrate
+   43  mvn archetype:generate
+   44  ls
+   45  yum install tree -y
+   46  cd webappproject/
+   47  tree
+   48  cd
+   49  git init
+   50  cd webappproject/
+   51  git init
+   52  git remote add origin https://github.com/QA-SC/webappproject-.git
+   53  git branch -M main
+   54  git push -u origin main
+   55  git config --gobal user.name "harpal"
+   56  git config --global user.name "harpal"
+   57  git config --global user.email "harpal.com"
+   58  git status
+   59  git add .
+   60  git commit - m "first repo"
+   61  git commit -m "first repo"
+   62  git push
+   63  git push -u origin main
+   64  cd /opt/
+   65  cd maven/
+   66  mvn -- version
+   67  mvn --version
+   68  mvn archetype:genrate
+   69   sudo su -
+   70  history
+   71  vi commands.txt
+   72  vi ~/.bash_profile
+   73  vi commands.txt
+   74  git status
+   75  mv commands.txt /webappproject
+   76  ls
+   77  cd webappproject/
+   78  ls
+   79  tree
+   80  cd
+   81  ls
+   82  cd /webappproject
+   83  webappproject/
+   84  cd webappproject/
+   85  history
